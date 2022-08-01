@@ -1,0 +1,144 @@
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --DarkcyanActive: hsl(158, 89%, 14%);
+--Cream: hsl(30, 38%, 92%);
+--Verydarkblue: hsl(212, 21%, 14%);
+--Darkgrayishblue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+main.container{
+    background: var(--Cream);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.container .card{
+    display: flex;
+    width: 602px;
+    height: 451px;
+    border-radius: 10px;
+    background: var(--White);
+}
+main.container .card .left{
+    height:100%;
+    width: 50%;
+}
+main.container .card .left img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+main.container .card .right{
+    width: 40%;
+    height: 412px;
+    padding: 40px 0 0 40px;
+}
+main.container .card .right h4{
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: var(--Darkgrayishblue);
+}
+main.container .card .right h1{
+    margin-bottom: 15px;
+}
+main.container .card .right p{
+    font-size: 18px;
+    color: var(--Darkgrayishblue);
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+main.container .card .right div{
+    display: flex;
+    margin-bottom: 10px;
+}
+main.container .card .right div h2{
+    font-size: 2.5rem;
+    color: var(--Darkcyan);
+}
+main.container .card .right div h4{
+    margin-left: 25px;
+    margin-top: 15px;
+    text-decoration: line-through;
+    color: var(--Darkgrayishblue);
+}
+main.container .card .right button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    background: var(--Darkcyan);
+    color: var(--White);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+main.container .card .right button span{
+margin-left: 10px;
+font-size: 18px;
+}
+main.container .card .right button img{
+    width: 20px;
+    height:20px;
+
+}
+main.container .card .right button:hover{
+    background: var(--DarkcyanActive);
+    cursor: pointer;
+}
+@media(max-width:375px){
+main.container{
+    width: 375px;
+    height: 667px;
+}
+main.container .card{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 650px;
+}
+main.container .card .left{
+height: 60%;
+}
+main.container .card .left img{
+    display: none;
+    position: relative;
+}
+main.container .card .left::after{
+    content: " ";
+    position: absolute;
+    background: url('../images/image-product-mobile.jpg');
+    background-size: cover;
+    width: 340px;
+    height: 245px;
+    border-radius: 10px 10px 0 0;
+}
+main.container .card .right{
+    margin: 0;
+    padding:30px;
+    width: 90%;
+    height: 100%;
+}
+main.container .card .right h4{
+    margin-top: 20px;
+    padding-left: 2px;
+}
+main.container .card .right h1{
+    padding-left: 2px;
+}
+main.container .card .right p{
+    padding-left: 2px;
+    width: 300px;
+    font-size: 17px;
+}
+main.container .card .right button{
+    width: 290px;
+}
+}
