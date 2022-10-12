@@ -37,7 +37,7 @@ main.container .card .left img{
 main.container .card .right{
     width: 241px;
     height: 441px;
-    padding: 10px 22px 0 40px;
+    padding: 10px 0 0 40px;
 }
 main.container .card .right h4{
     margin-bottom: 20px;
@@ -79,7 +79,6 @@ main.container .card .right button{
     outline: none;
     border: none;
     border-radius: 7px;
-    margin-top: 15px
 }
 main.container .card .right button span{
 margin-left: 10px;
