@@ -36,8 +36,8 @@ main.container .card .left img{
 }
 main.container .card .right{
     width: 241px;
-    height: 441px;
-    padding: 10px 0 0 40px;
+    height: 421px;
+    padding: 30px 0 0 20px;
 }
 main.container .card .right h4{
     margin-bottom: 20px;
