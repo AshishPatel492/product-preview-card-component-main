@@ -49,7 +49,7 @@ main.container .card .right h1{
     margin-bottom: 15px;
 }
 main.container .card .right p{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--Darkgrayishblue);
     line-height: 1.3;
     margin-bottom: 20px;
@@ -59,12 +59,12 @@ main.container .card .right div{
     margin-bottom: 10px;
 }
 main.container .card .right div h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--Darkcyan);
 }
 main.container .card .right div h4{
-    margin-left: 25px;
-    margin-top: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
     text-decoration: line-through;
     color: var(--Darkgrayishblue);
 }
@@ -73,7 +73,7 @@ main.container .card .right button{
     justify-content: center;
     align-items: center;
     width: 240px;
-    height: 50px;
+    height: 40px;
     background: var(--Darkcyan);
     color: var(--White);
     outline: none;
